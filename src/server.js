@@ -1,10 +1,10 @@
-const express = require('express');
+const { PORT = 5000 } = process.env;
 
-const app = express();
+const path = require("path");
+const app = require(path.resolve(
+  `${process.env.SOLUTION_PATH || ""}`,
+  "src/app"
+));
 
-// Basic get request
-app.get('/', (req, res) => {
-    res.send('Successful response');
-})
-
-app.listen(3000, () => console.log('Run tracker server is listening to port 3000'));
+const listener = () => console.log(`Listening on Port ${PORT}!`);
+app.listen(PORT, listener);
