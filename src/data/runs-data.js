@@ -1,4 +1,4 @@
-export const runs = [
+module.exports = [
     {
         id: 1,
         date: "3/18/22",
