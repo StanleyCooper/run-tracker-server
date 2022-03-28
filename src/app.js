@@ -1,4 +1,7 @@
 const express = require("express");
+const cors = require('cors');
+
+const app = express();
 
 // error handlers
 const errorHandler = require("./errors/errorHandler");
@@ -7,11 +10,10 @@ const notFound = require("./errors/notFound");
 // server routers
 const runsRouter = require("./runs/runs.router");
 
-const app = express();
-
 app.use(express.json());
+app.use(cors());
 
-app.use("/", runsRouter);
+app.use("/runs", runsRouter);
 app.use(notFound);
 app.use(errorHandler);
 
