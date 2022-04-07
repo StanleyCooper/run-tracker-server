@@ -65,4 +65,48 @@ module.exports = [
         calories: 447,
         rating: "6/10"
     },
+    {
+        id: 7,
+        date: new Date("2022-04-01"),
+        time: "31:13",
+        distance: 3.13,
+        avgPace: "9:59",
+        bestPace: "8:29",
+        avgHeartRate: 162,
+        calories: 415,
+        rating: "N/A"
+    },
+    {
+        id: 8,
+        date: new Date("2022-04-02"),
+        time: "31:16",
+        distance: 3.09,
+        avgPace: "10:08",
+        bestPace: "7:49",
+        avgHeartRate: 162,
+        calories: 413,
+        rating: "N/A"
+    },
+    {
+        id: 9,
+        date: new Date("2022-04-04"),
+        time: "29:32",
+        distance: 3.09,
+        avgPace: "9:34",
+        bestPace: "7:40",
+        avgHeartRate: 169,
+        calories: 412,
+        rating: "N/A"
+    },
+    {
+        id: 10,
+        date: new Date("2022-04-06"),
+        time: "39:03",
+        distance: 4.01,
+        avgPace: "9:45",
+        bestPace: "8:30",
+        avgHeartRate: 178,
+        calories: 567,
+        rating: "N/A"
+    },
 ]
