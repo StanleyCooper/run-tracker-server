@@ -120,4 +120,26 @@ module.exports = [
         calories: 411,
         rating: "N/A"
     },
+    {
+        id: 12,
+        date: new Date("2022-04-09"),
+        time: "27:36",
+        distance: 2.60,
+        avgPace: "10:37",
+        bestPace: "9:11",
+        avgHeartRate: 156,
+        calories: 340,
+        rating: "N/A"
+    },
+    {
+        id: 13,
+        date: new Date("2022-04-11"),
+        time: "32:58",
+        distance: 3.03,
+        avgPace: "10.53",
+        bestPace: "9:29",
+        avgHeartRate: 156,
+        calories: 397,
+        rating: "N/A"
+    },
 ]
